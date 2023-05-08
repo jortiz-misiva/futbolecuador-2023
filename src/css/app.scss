@@ -1,0 +1,106 @@
+// app global css in SCSS form
+
+body {
+  color: $primary !important;
+  background-color: #f3f3f3 !important;
+  font-size: 14px;
+  font-weight: normal !important;
+  font-family: 'Oxygen', Roboto, -apple-system, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  font-display: swap;
+}
+
+h1 {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h4 {
+  line-height: 1.2;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+cursor {
+  cursor: pointer;
+}
+
+.futec-container {
+  width: 990px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 912px) {
+  .futec-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 744px) and (max-device-width: 1194px) and (orientation: landscape) {
+  .futec-container {
+    width: calc(100vw - 35vw);
+  }
+}
+
+@media only screen and (min-device-width: 1194px) and (max-device-width: 1280px) and (orientation: landscape) {
+  .futec-container {
+    width: calc(100vw - 30vw);
+  }
+}
+
+.text-overflow-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.text-overflow-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.text-overflow-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.bg-primary-gradient {
+  background: rgb(3, 14, 22);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(3, 14, 22, 1) 1%,
+    rgba(12, 58, 95, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(3, 14, 22, 1) 1%,
+    rgba(12, 58, 95, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(3, 14, 22, 1) 1%,
+    rgba(12, 58, 95, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030e16",endColorstr="#0c3a5f",GradientType=1);
+}

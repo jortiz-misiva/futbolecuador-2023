@@ -1,0 +1,7 @@
+{
+  "name": "futbolecuador.com",
+  "short_name": "futbolecuador",
+  "gcm_sender_id": "990500762002",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
