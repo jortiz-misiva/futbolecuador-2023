@@ -145,8 +145,7 @@ const { showComponent } = storeToRefs(domStore);
     </template>
 
     <template v-if="$route.name == 'inicio' && showComponent">
-      <section class="q-pb-xl">
-        <!--<TitleSection title="Resultados" />-->
+      <section class="q-pb-xl">        
         <DataFactoryIframeWidget
           id="agenda-vertical"
           src="htmlCenter/data/deportes/futbol/todos/pages/es/agenda_vertical.html"
