@@ -23,10 +23,5 @@ const dataEvent = `{"channel": "${props.channel}"}`;
     :data-settings="dataSettings || {}"
   >
     <SpinnerDots />
-  </div>
-  <!-- <ScriptTag
-    id="datafactory"
-    src="https://datafactory.futbolecuador.com/html/v3/minapp/minApp.js"
-  >
-  </ScriptTag> -->
+  </div>  
 </template>
