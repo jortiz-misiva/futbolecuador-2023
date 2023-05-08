@@ -167,16 +167,7 @@ const { showComponent } = storeToRefs(domStore);
           src="minapp/modules/futbol/statsCenterPlayerComparison/statsCenterPlayerComparison.html?channel=deportes.futbol.ecuador.statsCenterPlayerComparison&lang=es_LA"
           custom-height="100%"
         />
-      </section>
-
-      <!-- Videoplayer Showheroes -->
-      <!-- <section>
-            <ScriptTag
-              data-wid="auto"
-              type="text/javascript"
-              src="https://content.viralize.tv/display/?zid=AAElb6o17jHslcCm"
-            />
-          </section> -->
+      </section>     
 
       <template v-if="$route.name == 'inicio' && showComponent">
         <section class="q-pb-xl">
