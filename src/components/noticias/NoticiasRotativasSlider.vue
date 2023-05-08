@@ -30,8 +30,7 @@ const { showComponent } = storeToRefs(domStore);
 </script>
 
 <template>
-  <div class="relative-position inicio-carrusel">
-    <!-- :autoplay="4000" :wrap-around="false"-->
+  <div class="relative-position inicio-carrusel">    
     <Carousel
       ref="carousel"
       v-if="rotativas"
