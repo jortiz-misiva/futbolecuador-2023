@@ -121,6 +121,7 @@ useMeta({
         <img
           :src="imgUrl(partido.local.informacion.shield_big)"
           class="shadow-3"
+          :title="partido.local.informacion.name"
         />
         <span class="text-center bg-primary score">{{
           partido.partido.result.split('-')[0]
@@ -134,6 +135,7 @@ useMeta({
         <img
           :src="imgUrl(partido.visitante.informacion.shield_big)"
           class="shadow-3"
+          :title="partido.visitante.informacion.name"
         />
         <span v-if="isDesktopOrTablet" class="team-name">
           {{ partido.visitante.informacion.name }}
